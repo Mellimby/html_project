@@ -1,0 +1,67 @@
+<html>
+<head>
+<h1>Cryptography</h1>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="algo.html">Encryption Algorithms</a></li>
+	<li><a href="symmetric.html">Symmetric Key Cryptography</a></li>
+	<li><a href="asymmetric.html">Asymmetric Key Cryptography</a></li>
+	<li><a href="applications.html">Applications of Cryptography</a></li>
+</ul>
+</head>
+<body style="font-size:28px;">
+	<h2>How Symmetric Key Encryption Algorithms Work</h2>
+	<h3>Symmetric Key Cryptography</h3>
+	<p>
+		An encryption system in which the sender and receiver of a message share a single, common key that is 
+		used to encrypt and decrypt the message. The most popular symmetric–key system is the Data Encryption Standard (DES).
+	</p>
+	<img src="symmetric-key.png" width="1000">
+	<table border = black style="font-size:28px; text-align: center;">
+		<th width="50%">Transposition Ciphers</th>
+		<th width="50%">Substitution Cipher</th>
+		<tr>
+			<td>
+				<p>
+					In Cryptography, a transposition cipher is a method of encryption by which the positions held by units of 
+					plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, 
+					so that the ciphertext constitutes a permutation of the plaintext.
+				</p>
+			</td>
+			<td>
+				<p>
+					Method of encryption by which units of plaintext are replaced with ciphertext, according to a fixed system; 
+					the “units” may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, 
+					and so forth.
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="transposition.png" width="500"></td>
+			<td><img src="substitution.png" width="500"></td>
+		</tr>
+	</table>
+	<table border = black style="font-size:28px; text-align: center;">
+		<th width="50%">Stream Cipher</th>
+		<th width="50%">Block Cipher</th>
+		<tr>
+			<td>
+				<p>
+					Symmetric or secret-key encryption algorithm that encrypts a single bit at a time. With a Stream Cipher, 
+					the same plaintext bit or byte will encrypt to a different bit or byte every time it is encrypted.
+				</p>
+			</td>
+			<td>
+				<p>
+					An encryption method that applies a deterministic algorithm along with a symmetric key to encrypt 
+					a block of text, rather than encrypting one bit at a time as in stream ciphers. 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="stream.png"  width="500">></td>
+			<td><img src="block.png"  width="500">></td>
+		</tr>
+	</table>
+</body>
+</html>
